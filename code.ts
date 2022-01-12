@@ -10,7 +10,7 @@ function sleep(ms) {
 
 async function traverse(node) {
   if (node.fillStyleId) {
-    let color;
+    let color
 
     switch (node.fillStyleId) {
       // 1B2A34 > 343A40
