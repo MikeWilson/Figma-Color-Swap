@@ -45,6 +45,10 @@ async function traverse(node) {
       case 'S:73cb5732dd14fcab9d7ad723f071e5574528ad6b,19986:250':
         color = {"r":1,"g":1,"b":1}
         break
+      // 1CA1DC > 178AF7
+      case 'S:1df5e92b870e3d3ed7ce8b86d1fea9cf43e812d4,19986:236':
+        color = {"r":0.09019607843137255,"g":0.5411764705882353,"b":0.9686274509803922}
+        break
       default:
         break
     }
