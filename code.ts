@@ -4,10 +4,6 @@ function clone(val) {
   return JSON.parse(JSON.stringify(val))
 }
 
-function sleep(ms) {
-  return new Promise(resolve => setTimeout(resolve, ms));
-}
-
 async function traverse(node) {
   if (node.fillStyleId) {
     let color
